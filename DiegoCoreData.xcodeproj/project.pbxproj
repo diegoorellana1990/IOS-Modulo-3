@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1465FF81BF93FBE00F52BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1465FF71BF93FBE00F52BC7 /* AppDelegate.swift */; };
+		F1465FFA1BF93FBE00F52BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1465FF91BF93FBE00F52BC7 /* ViewController.swift */; };
+		F1465FFD1BF93FBE00F52BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1465FFB1BF93FBE00F52BC7 /* Main.storyboard */; };
+		F14660001BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1465FFE1BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodeld */; };
+		F14660021BF93FBE00F52BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14660011BF93FBE00F52BC7 /* Assets.xcassets */; };
+		F14660051BF93FBE00F52BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14660031BF93FBE00F52BC7 /* LaunchScreen.storyboard */; };
+		F14660101BF93FBE00F52BC7 /* DiegoCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146600F1BF93FBE00F52BC7 /* DiegoCoreDataTests.swift */; };
+		F146601B1BF93FBE00F52BC7 /* DiegoCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146601A1BF93FBE00F52BC7 /* DiegoCoreDataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F146600C1BF93FBE00F52BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1465FEC1BF93FBE00F52BC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1465FF31BF93FBE00F52BC7;
+			remoteInfo = DiegoCoreData;
+		};
+		F14660171BF93FBE00F52BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1465FEC1BF93FBE00F52BC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1465FF31BF93FBE00F52BC7;
+			remoteInfo = DiegoCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1465FF41BF93FBE00F52BC7 /* DiegoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiegoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1465FF71BF93FBE00F52BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1465FF91BF93FBE00F52BC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1465FFC1BF93FBE00F52BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1465FFF1BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiegoCoreData.xcdatamodel; sourceTree = "<group>"; };
+		F14660011BF93FBE00F52BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14660041BF93FBE00F52BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14660061BF93FBE00F52BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F146600B1BF93FBE00F52BC7 /* DiegoCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiegoCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F146600F1BF93FBE00F52BC7 /* DiegoCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiegoCoreDataTests.swift; sourceTree = "<group>"; };
+		F14660111BF93FBE00F52BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14660161BF93FBE00F52BC7 /* DiegoCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiegoCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F146601A1BF93FBE00F52BC7 /* DiegoCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiegoCoreDataUITests.swift; sourceTree = "<group>"; };
+		F146601C1BF93FBE00F52BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1465FF11BF93FBE00F52BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14660081BF93FBE00F52BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14660131BF93FBE00F52BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1465FEB1BF93FBE00F52BC7 = {
+			isa = PBXGroup;
+			children = (
+				F1465FF61BF93FBE00F52BC7 /* DiegoCoreData */,
+				F146600E1BF93FBE00F52BC7 /* DiegoCoreDataTests */,
+				F14660191BF93FBE00F52BC7 /* DiegoCoreDataUITests */,
+				F1465FF51BF93FBE00F52BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1465FF51BF93FBE00F52BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1465FF41BF93FBE00F52BC7 /* DiegoCoreData.app */,
+				F146600B1BF93FBE00F52BC7 /* DiegoCoreDataTests.xctest */,
+				F14660161BF93FBE00F52BC7 /* DiegoCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1465FF61BF93FBE00F52BC7 /* DiegoCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F1465FF71BF93FBE00F52BC7 /* AppDelegate.swift */,
+				F1465FF91BF93FBE00F52BC7 /* ViewController.swift */,
+				F1465FFB1BF93FBE00F52BC7 /* Main.storyboard */,
+				F14660011BF93FBE00F52BC7 /* Assets.xcassets */,
+				F14660031BF93FBE00F52BC7 /* LaunchScreen.storyboard */,
+				F14660061BF93FBE00F52BC7 /* Info.plist */,
+				F1465FFE1BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodeld */,
+			);
+			path = DiegoCoreData;
+			sourceTree = "<group>";
+		};
+		F146600E1BF93FBE00F52BC7 /* DiegoCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				F146600F1BF93FBE00F52BC7 /* DiegoCoreDataTests.swift */,
+				F14660111BF93FBE00F52BC7 /* Info.plist */,
+			);
+			path = DiegoCoreDataTests;
+			sourceTree = "<group>";
+		};
+		F14660191BF93FBE00F52BC7 /* DiegoCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F146601A1BF93FBE00F52BC7 /* DiegoCoreDataUITests.swift */,
+				F146601C1BF93FBE00F52BC7 /* Info.plist */,
+			);
+			path = DiegoCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1465FF31BF93FBE00F52BC7 /* DiegoCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F146601F1BF93FBE00F52BC7 /* Build configuration list for PBXNativeTarget "DiegoCoreData" */;
+			buildPhases = (
+				F1465FF01BF93FBE00F52BC7 /* Sources */,
+				F1465FF11BF93FBE00F52BC7 /* Frameworks */,
+				F1465FF21BF93FBE00F52BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiegoCoreData;
+			productName = DiegoCoreData;
+			productReference = F1465FF41BF93FBE00F52BC7 /* DiegoCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F146600A1BF93FBE00F52BC7 /* DiegoCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14660221BF93FBE00F52BC7 /* Build configuration list for PBXNativeTarget "DiegoCoreDataTests" */;
+			buildPhases = (
+				F14660071BF93FBE00F52BC7 /* Sources */,
+				F14660081BF93FBE00F52BC7 /* Frameworks */,
+				F14660091BF93FBE00F52BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F146600D1BF93FBE00F52BC7 /* PBXTargetDependency */,
+			);
+			name = DiegoCoreDataTests;
+			productName = DiegoCoreDataTests;
+			productReference = F146600B1BF93FBE00F52BC7 /* DiegoCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F14660151BF93FBE00F52BC7 /* DiegoCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14660251BF93FBE00F52BC7 /* Build configuration list for PBXNativeTarget "DiegoCoreDataUITests" */;
+			buildPhases = (
+				F14660121BF93FBE00F52BC7 /* Sources */,
+				F14660131BF93FBE00F52BC7 /* Frameworks */,
+				F14660141BF93FBE00F52BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14660181BF93FBE00F52BC7 /* PBXTargetDependency */,
+			);
+			name = DiegoCoreDataUITests;
+			productName = DiegoCoreDataUITests;
+			productReference = F14660161BF93FBE00F52BC7 /* DiegoCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1465FEC1BF93FBE00F52BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Diego Alejandro Orellana Lopez";
+				TargetAttributes = {
+					F1465FF31BF93FBE00F52BC7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F146600A1BF93FBE00F52BC7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F1465FF31BF93FBE00F52BC7;
+					};
+					F14660151BF93FBE00F52BC7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F1465FF31BF93FBE00F52BC7;
+					};
+				};
+			};
+			buildConfigurationList = F1465FEF1BF93FBE00F52BC7 /* Build configuration list for PBXProject "DiegoCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1465FEB1BF93FBE00F52BC7;
+			productRefGroup = F1465FF51BF93FBE00F52BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1465FF31BF93FBE00F52BC7 /* DiegoCoreData */,
+				F146600A1BF93FBE00F52BC7 /* DiegoCoreDataTests */,
+				F14660151BF93FBE00F52BC7 /* DiegoCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1465FF21BF93FBE00F52BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14660051BF93FBE00F52BC7 /* LaunchScreen.storyboard in Resources */,
+				F14660021BF93FBE00F52BC7 /* Assets.xcassets in Resources */,
+				F1465FFD1BF93FBE00F52BC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14660091BF93FBE00F52BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14660141BF93FBE00F52BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1465FF01BF93FBE00F52BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1465FFA1BF93FBE00F52BC7 /* ViewController.swift in Sources */,
+				F1465FF81BF93FBE00F52BC7 /* AppDelegate.swift in Sources */,
+				F14660001BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14660071BF93FBE00F52BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14660101BF93FBE00F52BC7 /* DiegoCoreDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14660121BF93FBE00F52BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F146601B1BF93FBE00F52BC7 /* DiegoCoreDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F146600D1BF93FBE00F52BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1465FF31BF93FBE00F52BC7 /* DiegoCoreData */;
+			targetProxy = F146600C1BF93FBE00F52BC7 /* PBXContainerItemProxy */;
+		};
+		F14660181BF93FBE00F52BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1465FF31BF93FBE00F52BC7 /* DiegoCoreData */;
+			targetProxy = F14660171BF93FBE00F52BC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1465FFB1BF93FBE00F52BC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1465FFC1BF93FBE00F52BC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F14660031BF93FBE00F52BC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14660041BF93FBE00F52BC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F146601D1BF93FBE00F52BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F146601E1BF93FBE00F52BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14660201BF93FBE00F52BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiegoCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Distopia.DiegoCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F14660211BF93FBE00F52BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiegoCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Distopia.DiegoCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F14660231BF93FBE00F52BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiegoCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Distopia.DiegoCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiegoCoreData.app/DiegoCoreData";
+			};
+			name = Debug;
+		};
+		F14660241BF93FBE00F52BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiegoCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Distopia.DiegoCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiegoCoreData.app/DiegoCoreData";
+			};
+			name = Release;
+		};
+		F14660261BF93FBE00F52BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiegoCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Distopia.DiegoCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiegoCoreData;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F14660271BF93FBE00F52BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiegoCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Distopia.DiegoCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiegoCoreData;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1465FEF1BF93FBE00F52BC7 /* Build configuration list for PBXProject "DiegoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F146601D1BF93FBE00F52BC7 /* Debug */,
+				F146601E1BF93FBE00F52BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F146601F1BF93FBE00F52BC7 /* Build configuration list for PBXNativeTarget "DiegoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14660201BF93FBE00F52BC7 /* Debug */,
+				F14660211BF93FBE00F52BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F14660221BF93FBE00F52BC7 /* Build configuration list for PBXNativeTarget "DiegoCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14660231BF93FBE00F52BC7 /* Debug */,
+				F14660241BF93FBE00F52BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F14660251BF93FBE00F52BC7 /* Build configuration list for PBXNativeTarget "DiegoCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14660261BF93FBE00F52BC7 /* Debug */,
+				F14660271BF93FBE00F52BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1465FFE1BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1465FFF1BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodel */,
+			);
+			currentVersion = F1465FFF1BF93FBE00F52BC7 /* DiegoCoreData.xcdatamodel */;
+			path = DiegoCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1465FEC1BF93FBE00F52BC7 /* Project object */;
+}
